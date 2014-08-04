@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="images/favicon (4).ico" type="image/x-icon">
+		<link rel="icon" href="images/favicon (4).ico" type="image/x-icon">
+		<title>Feather</title>
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+				font-family: 'Raleway', sans-serif;
+				background-image: url("images/background3.png");
+				background-repeat: no-repeat;
+				height: 100%;
+				width: 100%;
+			}
+
+			#menu-bar {
+				width: 100%;
+				height: 60px;
+				background-color: rgba(150, 220, 255, 0.95);
+				z-index: 100;
+				box-shadow: 0px 0px 5px #888888;
+				display:block;
+				position: fixed;
+				padding-top: 3px;
+			}
+
+			#menu-content-container {
+				width: 1050px;
+				height: 40px;
+				margin: 0 auto;
+				margin-top: 10px;
+			}
+
+			a:link{
+				text-decoration: none;
+				color: white;
+			}
+			a:visited{
+				text-decoration: none;
+				color: white;
+			}
+
+			#display {
+				width: 100%;
+				
+			}
+
+			#display-container {
+				width: 1100px;
+				height: 630px;
+				margin: auto;
+				position: absolute;
+  				top: 0; left: 0; bottom: 0; right: 0;
+			}
+
+			#display-info {
+				height: 500px;
+				width: 700px;
+				float: left;
+				position: absolute;
+				bottom: 0;
+			}
+
+			.title {
+				margin-top: 10px;
+				margin-left: 15px;
+				background-color: rgba(150, 220, 255, 0.3);
+			}
+
+			.title-words {
+				text-align: center;
+				font-size: 35px;
+				padding: 15px;
+				margin:0;
+				color: white;
+			}
+
+			#button {
+				position: absolute; 
+				width: 150px; 
+				height: 60px; 
+				color: white;
+				border: solid white 1px;
+				margin-top: 25px;
+				margin-left: 15px;
+				-webkit-transition: .2s all;
+				-moz-transition: .2s all;
+				-o-transition: .2s all;
+				transition: .2s all;
+			}
+
+			#button:hover{
+				background-color: rgba(150, 220, 255, 0.3);
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<div id = "menu-bar">
+			<div id = "menu-content-container">
+					<img src = "images/logo.png" style = "height:30px; float:left; margin-top:5px;"/>
+					<p style= "margin:0; padding:0; float:left; color:white; font-size:25px; margin-top:5px; margin-left:5px;">Feather</p>
+			</div>
+		</div>
+
+		<div id = "display">
+			<div id = "display-container">
+				<div id = "display-info">
+					<div class = "title" style = "width:380px;">
+						<p class = "title-words">No more heavy lifting</p>
+					</div>
+					<div class = "title" style = "width:610px;">
+						<p class = "title-words">organize snapshots of your textbook</p>
+					</div>
+					<p class = "title-words" style = "font-size:16px; text-align:left; margin-top:20px;">
+						Mobile e-textbook reader made by you. Your textbook's not provided in e-book form? No problem. The general idea is being able to take pictures of a hardcopy textbook and view the pages you snapshotted. Feather helps you organize different textbooks and the pages in each of them. 
+					</p>
+					<div id = "button" style = ""><p style = "padding-top: 18px; margin:0; font-size:20px; text-align:center;"><a href = "">Get Feather</a></p></div>
+				</div>
+				<img src = "images/FeatherApp.png" style = "height:580px; position:absolute; bottom:0; right:0;"/>
+				<p style = "margin:0; padding: 0; color:white; position:absolute; bottom:0; margin-left:15px; margin-bottom:10px;">Created by: Alex Yeh &copy Feather</p>
+			</div>
+		</div>
+	</body>
+
+</html>
